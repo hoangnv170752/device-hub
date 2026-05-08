@@ -105,15 +105,9 @@
 @layer base {
   * {
     @apply border-border;
-    cursor: none !important;
   }
   body {
     @apply bg-background text-foreground font-sans antialiased;
-  }
-
-  /* Restore cursor on interactive elements for accessibility */
-  a, button, input, textarea, select, [role="button"] {
-    cursor: none !important;
   }
 }
 
